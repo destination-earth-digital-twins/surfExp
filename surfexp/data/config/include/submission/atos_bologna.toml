@@ -77,6 +77,9 @@
 [submission.task_exceptions.Marsprep]
   bindir = "/usr/local/bin/"
 
+[submission.task_exceptions.FetchMarsPrep.BATCH]
+  MEM = "#SBATCH --mem=32GB"
+
 [submission.task_exceptions.OfflineForecast.BATCH]
   #  MEM = "#SBATCH --mem=200GB"
   NODES = "#SBATCH --nodes=1"
